@@ -47,9 +47,18 @@ In this project:
 </table>
 
 <h2>Virtualization</h2>
-<h2>Creating Lab Machines</h2>
+<h2>Create Lab Machines</h2>
   <h4>Machine 1: Attacker</h4>
   <h4>Machine 2: Victim</h4>
   <h4>Machine 3: SIEM</h4>
-
-    
+<h2>Configure the Network</h2>
+<h2>Install Sysmon on Windows</h2>
+<h2>Install Splunk on Ubuntu</h2>
+<h2>Send Windows Log to Splunk</h2>
+<h2>Perform Attacks (Red Team)</h2>
+  <h4>Attack 1 - Network Scan</h4>
+  <h4>Attack 2 - Brute Force Login</h4>
+  <h4>Attack 3 - Exploitation</h4>
+<h2>Detect Attacks (Blue Team)</h2>
+<h2>Build a Detection Dashboard</h2>
+<h2>Investigate the Attack</h2>
