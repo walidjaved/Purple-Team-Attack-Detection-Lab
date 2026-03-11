@@ -48,8 +48,8 @@ In this project:
 
 <h2>Virtualization</h2>
 <h2>Creating Lab Machines</h2>
-  <h3>Machine 1: Attacker</h3>
-  <h3>Machine 2: Victim</h3>
-  <h3>Machine 3: SIEM</h3>
+  <h4>Machine 1: Attacker</h4>
+  <h4>Machine 2: Victim</h4>
+  <h4>Machine 3: SIEM</h4>
 
     
