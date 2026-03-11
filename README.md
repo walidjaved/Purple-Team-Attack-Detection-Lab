@@ -94,7 +94,9 @@
   </table>
   
 <h2>Configure the Network</h2>
-      This is a test code
+<p>
+        This is a test code
+</p>
 <h2>Install Sysmon on Windows</h2>
 <h2>Install Splunk on Ubuntu</h2>
 <h2>Send Windows Log to Splunk</h2>
