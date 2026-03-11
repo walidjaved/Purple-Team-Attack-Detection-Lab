@@ -1,7 +1,7 @@
 # Purple Team Attack & Detection Lab
 
 <h2> Description</h2>
-<i>This project simulates a cyberattack using Kali Linux and detects malicious activity using Splunk SIEM and Sysmon logs.</i>
+<b>This project simulates a cyberattack using Kali Linux and detects malicious activity using Splunk SIEM and Sysmon logs.</b>
 <br>
 In this project:
 <ol>
