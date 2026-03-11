@@ -69,7 +69,7 @@
     
   <h4>Machine 2: Victim</h4>
 
-    <table>
+  <table>
       <tr>
         <th>OS</th>
         <th>Purpose</th>
@@ -78,11 +78,11 @@
         <td>Windows 11</td>
         <td>Generate logs from attack</td>
       </tr>
-    </table>
+  </table>
   
   <h4>Machine 3: SIEM</h4>
 
-    <table>
+  <table>
       <tr>
         <th>OS</th>
         <th>Purpose</th>
@@ -91,7 +91,7 @@
         <td>Ubuntu Server</td>
         <td>Log collection and analysis</td>
       </tr>
-    </table>
+  </table>
   
 <h2>Configure the Network</h2>
 <h2>Install Sysmon on Windows</h2>
