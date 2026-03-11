@@ -105,10 +105,7 @@
   <h4>Attack 1 - Network Scan</h4>
     <pre>
       <code>
-        .code-box {
-        border: 1px solid black;
-        padding: 10px;
-        }
+        nmap -sS 192.168.56.20
       </code>
     </pre>
     
