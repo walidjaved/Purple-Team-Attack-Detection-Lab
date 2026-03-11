@@ -110,6 +110,12 @@
     </pre>
     
   <h4>Attack 2 - Brute Force Login</h4>
+    <pre>
+      <code>
+        Test
+      </code>
+    </pre>
+    
   <h4>Attack 3 - Exploitation</h4>
   
 <h2>Detect Attacks (Blue Team)</h2>
