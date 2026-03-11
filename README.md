@@ -60,5 +60,9 @@ In this project:
   <h4>Attack 2 - Brute Force Login</h4>
   <h4>Attack 3 - Exploitation</h4>
 <h2>Detect Attacks (Blue Team)</h2>
+  <h4>Detect Process Execution</h4>
+  <h4>Detect Powershell Abuse</h4>
+  <h4>Detect Network Connections</h4>
+  <h4>Detect Suspicious Activity</h4>
 <h2>Build a Detection Dashboard</h2>
 <h2>Investigate the Attack</h2>
