@@ -4,12 +4,12 @@
 Simulate a cyberattack and detect it using a SIEM. 
 <br>
 In this project:
-<br>
-  1. Launch Attack <br>
-  2. Collect Logs <br>
-  3. Detect suspicious activity <br>
-  4. Investigate the attack <br>
-
+<ol>
+  <li>Launch Attack</li>
+  <li>Collect Logs</li>
+  <li>Detect suspicious activity</li>
+  <li>Investigate the attack</li>
+</ol>
 <h2>Tools Used</h2>
 <table>
   <tr>
