@@ -49,8 +49,8 @@
 </table>
 
 <h2>Virtualization</h2>
-<p>For this project, I am utilizing Virtual Box. Virtual Box gives us the opportunity to run multiple machines in a sandbox environment. We can create Windows hosts, Linux hosts, etc. to create a safe lab environment for testing purposes. It is great tool to use for simulating real threats and defending against them without causing harm to real systems.</p>
-<p>I downloaded and installed Virtual Box on my machine to start creating my test environment.</p>
+<p>For this project, I am utilizing Virtual Box. Virtual Box gives us the opportunity to run multiple machines in a sandbox environment. We can create Windows hosts, Linux hosts, etc. to create a lab environment for malware testing and learning tools safely. It is a great tool to use for simulating real threats and defending against them without causing harm to real systems.</p>
+<p>I downloaded and installed Virtual Box on my machine to start creating my test machines and environment.</p>
 <img width="955" height="537" alt="image" src="https://github.com/user-attachments/assets/66475b3d-cd4b-4908-8e49-a97c49fe827a" />
 <h2>Create Lab Machines</h2>
 
@@ -94,6 +94,7 @@
   </table>
   
 <h2>Configure the Network</h2>
+      This is a test code
 <h2>Install Sysmon on Windows</h2>
 <h2>Install Splunk on Ubuntu</h2>
 <h2>Send Windows Log to Splunk</h2>
