@@ -103,6 +103,15 @@
 
 <h2>Perform Attacks (Red Team)</h2>
   <h4>Attack 1 - Network Scan</h4>
+    <pre>
+      <code>
+        .code-box {
+        border: 1px solid black;
+        padding: 10px;
+        }
+      </code>
+    </pre>
+    
   <h4>Attack 2 - Brute Force Login</h4>
   <h4>Attack 3 - Exploitation</h4>
   
