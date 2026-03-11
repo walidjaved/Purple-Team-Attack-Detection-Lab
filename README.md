@@ -112,6 +112,11 @@
   <h4>Attack 2 - Brute Force Login</h4>
     <pre>
       <code>
+        /* A simple CSS style rule */
+    .code-box {
+      border: 1px solid black;
+      padding: 10px;
+    }
         Test
       </code>
     </pre>
