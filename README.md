@@ -16,5 +16,33 @@ In this project:
     <th>Tool</th>
     <th>Purpose</th>
   </tr>
+  <tr>
+    <td>Virtual Box</td>
+    <td>Run Virtual Machines</td>
+  </tr>
+    <tr>
+    <td>Kali Linux</td>
+    <td>Attack Machine</td>
+  </tr>
+    <tr>
+    <td>Windows 11 VM</td>
+    <td>Victim Machine</td>
+  </tr>
+    <tr>
+    <td>Splunk</td>
+    <td>Log Analysis</td>
+  </tr>
+    <tr>
+    <td>Sysmon</td>
+    <td>Detailed Windows Logging</td>
+  </tr>
+    <tr>
+    <td>Nmap</td>
+    <td>Reconnaissance</td>
+  </tr>
+    <tr>
+    <td>Metasploit</td>
+    <td>Exploitation</td>
+  </tr>
 </table>
     
