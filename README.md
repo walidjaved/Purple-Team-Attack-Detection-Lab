@@ -1,5 +1,5 @@
 # Purple Team Attack & Detection Lab
 
-<h1> Goal of the Project</h1>
+<h3> Goal of the Project</h3>
   - Simulate a cyberattack and detect it using a SIEM. 
     
