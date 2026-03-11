@@ -1,7 +1,7 @@
 # Purple Team Attack & Detection Lab
 
-<h2> Goal of the Project</h2>
-<i>Simulate a cyberattack and detect it using a SIEM.</i>
+<h2> Description</h2>
+<i>This project simulates a cyberattack using Kali Linux and detects malicious activity using Splunk SIEM and Sysmon logs.</i>
 <br>
 In this project:
 <ol>
