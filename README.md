@@ -56,7 +56,7 @@
 
   <h4>Machine 1: Attacker</h4>
   
-    <table>
+  <table>
       <tr>
         <th>OS</th>
         <th>Purpose</th>
@@ -65,7 +65,7 @@
         <td>Kali Linux</td>
         <td>Simulate cyberattacks</td>
       </tr>
-    </table>
+  </table>
     
   <h4>Machine 2: Victim</h4>
 
