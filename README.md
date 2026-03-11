@@ -3,7 +3,6 @@
 <h2> Goal of the Project</h2>
 <i>Simulate a cyberattack and detect it using a SIEM.</i>
 <br>
-<br>
 In this project:
 <ol>
   <li>Launch Attack</li>
