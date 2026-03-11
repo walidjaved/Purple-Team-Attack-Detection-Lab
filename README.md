@@ -94,20 +94,24 @@
   </table>
   
 <h2>Configure the Network</h2>
-<p>
-        This is a test code
-</p>
+
 <h2>Install Sysmon on Windows</h2>
+
 <h2>Install Splunk on Ubuntu</h2>
+
 <h2>Send Windows Log to Splunk</h2>
+
 <h2>Perform Attacks (Red Team)</h2>
   <h4>Attack 1 - Network Scan</h4>
   <h4>Attack 2 - Brute Force Login</h4>
   <h4>Attack 3 - Exploitation</h4>
+  
 <h2>Detect Attacks (Blue Team)</h2>
   <h4>Detect Process Execution</h4>
   <h4>Detect Powershell Abuse</h4>
   <h4>Detect Network Connections</h4>
   <h4>Detect Suspicious Activity</h4>
+  
 <h2>Build a Detection Dashboard</h2>
+
 <h2>Investigate the Attack</h2>
