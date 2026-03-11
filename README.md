@@ -47,7 +47,9 @@ In this project:
 </table>
 
 <h2>Virtualization</h2>
+
 <h2>Create Lab Machines</h2>
+<img width="955" height="537" alt="image" src="https://github.com/user-attachments/assets/66475b3d-cd4b-4908-8e49-a97c49fe827a" />
   <h4>Machine 1: Attacker</h4>
   <h4>Machine 2: Victim</h4>
   <h4>Machine 3: SIEM</h4>
