@@ -68,6 +68,8 @@
   </table>
 
   <p>Kali is a popular and powerful operating system built on Linux. It is primarily used for penetration testing offering a plethora of tools built right in to the operating system. I will use this machine as the "attacker" machine to simulate real attacks like any enterprise could face in the real world.</p>
+
+  
     
   <h4>Machine 2: Victim</h4>
 
