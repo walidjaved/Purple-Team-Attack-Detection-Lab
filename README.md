@@ -162,7 +162,8 @@
 
   ![Ubuntu Network Settings](screenshots/Ubuntu-Network-Settings.PNG)
 
-<p>After the network settings have been set, I ensured each device was able to communicate with each other via the ping command. Each device was able to communicate to the other devices successfully:</p> 
+<p>After the network settings have been set, first I ensured each device had the correct settings by issuing "ip a" on Linux machines and "ipconfig" on windows machine. Second, I ensured each device could communicate with each other via the "ping" command.</p>
+<p>Connection settings and testing were successful:</p> 
 
 <h3>Kali Connection Test</h3>
 
