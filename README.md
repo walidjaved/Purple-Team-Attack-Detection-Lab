@@ -184,6 +184,14 @@
 <p>It records things Windows normally does not log in detail.</p>
 <p>I installed Sysmon from Microsofts website and configured it to avoid excessive logs:</p>
 
+![Sysmon Install](screenshots/Sysmon-Install.PNG)
+
+<h2>Verifying Logs Collection</h2>
+<p>Next, I verified logs were being ingested properly to Event Viewer via Sysmon:</p>
+
+![Sysmon Log Ingestion](screenshots/Sysmon-LogCollection.PNG)
+
+
 <h2>Install Splunk on Ubuntu</h2>
 <p>Splunk is a platform used to collect, search, analyze, and visualize machine data (logs) from systems, applications, and network devices.</p>
 <p>In cybersecurity, Splunk is commonly used as a SIEM (Security Information and Event Management) system.</p>
