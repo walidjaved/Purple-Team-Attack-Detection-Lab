@@ -90,7 +90,7 @@
 
   <p>The victim machine is a Windows 11 host. Windows is the most common operating system in the world and is widely used in private corporations as well as government environments. Using Windows as a victim machine provides valuable insight to what most machines could experience during a cyberattack.</p>
 
-
+  ![Windows](screenshots/Windows.PNG)
   
   <h4>Machine 3: SIEM</h4>
 
