@@ -144,6 +144,8 @@
       </tr>
   </table>
 
+  ![Windows Network Settings](screenshots/Windows-Network-Settings.PNG)
+
 <h4>Machine 3: SIEM</h4>
   <table>
       <tr>
@@ -158,7 +160,18 @@
       </tr>
   </table>
 
+  ![Ubuntu Network Settings](screenshots/Ubuntu-Network-Settings.PNG)
 
+<p>After the network settings have been set, I ensured each device was able to communicate with each other via the ping command. Each device was able to communicate to the other devices successfully:</p> 
+
+<h3>Kali Connection Test</h3>
+![Kali Network Settings](screenshots/Kali-Network-Settings.PNG)
+
+<h3>Windows Connection Test</h3>
+![Windows Network Settings](screenshots/Windows-Network-Settings.PNG)
+
+<h3>Ubuntu Connection Test</h3>
+![Ubuntu Network Settings](screenshots/Ubuntu-Network-Settings.PNG)
 
 <h2>Install Sysmon on Windows</h2>
 
