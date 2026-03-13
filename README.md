@@ -111,6 +111,52 @@
   
 <h2>Configure the Network</h2>
 
+<p>Next step is to configure the network. Since we are testing, it is important to ensure the machines do not have internet access. Additionally, the machines are located in the same private subnet to allow communication with each other and nothing else. </p>
+
+<h4>Machine 1: Attacker</h4>
+  <table>
+      <tr>
+        <th>OS</th>
+        <th>IP</th>
+        <th>Subnet Mask</th>
+      </tr>
+      <tr>
+        <td>Kali</td>
+        <td>192.168.56.10</td>
+        <td>255.255.255.0</td>
+      </tr>
+  </table>
+  
+<h4>Machine 2: Victim</h4>
+  <table>
+      <tr>
+        <th>OS</th>
+        <th>IP</th>
+        <th>Subnet Mask</th>
+      </tr>
+      <tr>
+        <td>Windows 11</td>
+        <td>192.168.56.20</td>
+        <td>255.255.255.0</td>
+      </tr>
+  </table>
+
+<h4>Machine 3: SIEM</h4>
+  <table>
+      <tr>
+        <th>OS</th>
+        <th>IP</th>
+        <th>Subnet Mask</th>
+      </tr>
+      <tr>
+        <td>Ubuntu</td>
+        <td>192.168.56.30</td>
+        <td>255.255.255.0</td>
+      </tr>
+  </table>
+
+
+
 <h2>Install Sysmon on Windows</h2>
 
 <h2>Install Splunk on Ubuntu</h2>
