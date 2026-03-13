@@ -111,7 +111,7 @@
   
 <h2>Configure the Network</h2>
 
-<p>Next step is to configure the network. Since we are testing, it is important to ensure the machines do not have internet access. Additionally, the machines are located in the same private subnet to allow communication with each other and nothing else. </p>
+<p>Next step is to configure the network. Since we are testing, it is important to ensure the machines do not have internet access. Additionally, the machines are located in the same private subnet to allow communication with each other and nothing else, creating a sandbox environment. </p>
 
 <h4>Machine 1: Attacker</h4>
   <table>
@@ -126,6 +126,9 @@
         <td>255.255.255.0</td>
       </tr>
   </table>
+  
+ ![Kali Network Settings](screenshots/Kali-Network-Settings.PNG)
+  
   
 <h4>Machine 2: Victim</h4>
   <table>
