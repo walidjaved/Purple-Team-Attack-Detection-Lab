@@ -165,13 +165,16 @@
 <p>After the network settings have been set, I ensured each device was able to communicate with each other via the ping command. Each device was able to communicate to the other devices successfully:</p> 
 
 <h3>Kali Connection Test</h3>
-![Kali Network Settings](screenshots/Kali-Network-Settings.PNG)
+
+![Kali Network Settings](screenshots/Kali-Connection.PNG) 
 
 <h3>Windows Connection Test</h3>
-![Windows Network Settings](screenshots/Windows-Network-Settings.PNG)
+
+![Windows Network Settings](screenshots/Windows-Connection.PNG)
 
 <h3>Ubuntu Connection Test</h3>
-![Ubuntu Network Settings](screenshots/Ubuntu-Network-Settings.PNG)
+
+![Ubuntu Network Settings](screenshots/Ubuntu-Connection.PNG)
 
 <h2>Install Sysmon on Windows</h2>
 
