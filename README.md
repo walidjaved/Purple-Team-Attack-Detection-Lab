@@ -164,7 +164,7 @@
 
 <h2>Testing and Verifying Network Connections</h2>
 
-<p>After the network settings have been set, first I ensured each device had the correct settings by issuing "ip a" on Linux machines and "ipconfig" on windows machine. Second, I ensured each device could communicate with each other via the "ping" command.</p>
+<p>After the network settings have been set, first I ensured each device had the correct settings by issuing "ip a" on Linux machines and "ipconfig" on windows machine. Second, I ensured each device could communicate with each other via the "ping" command. Additional modifications needed to be done on the Windows firewall for ICMP communication.</p>
 <p>Connection settings and testing were successful:</p> 
 
 <h3>Kali Connection Test</h3>
