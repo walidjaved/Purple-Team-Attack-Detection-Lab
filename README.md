@@ -53,7 +53,7 @@
 <p>I downloaded and installed Virtual Box on my machine to start creating my test machines and environment.</p>
 
 
-<img width="955" height="537" alt="image" src="https://github.com/user-attachments/assets/66475b3d-cd4b-4908-8e49-a97c49fe827a" />
+![Oracle Virtual Box](screenshots/OracleVB.PNG)
 
 
 <h2>Create Lab Machines</h2>
