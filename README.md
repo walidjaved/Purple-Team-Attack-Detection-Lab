@@ -67,9 +67,9 @@
       </tr>
   </table>
 
-  <p>Kali is a popular and powerful operating system built on Linux. It is primarily used for penetration testing offering a plethora of tools built right in to the operating system. I will use this machine as the "attacker" machine to simulate real attacks like any enterprise could face in the real world.</p>
+  <p>Kali is a popular and powerful operating system built on Linux. It is primarily used for penetration testing offering a plethora of tools built right in to the operating system. I will use this machine as the "attacker" machine to simulate actual attacks like any enterprise could face in the real world.</p>
 
-  
+
     
   <h4>Machine 2: Victim</h4>
 
@@ -83,6 +83,8 @@
         <td>Generate logs from attack</td>
       </tr>
   </table>
+
+  <p>The victim machine is a Windows 11 host. Windows is the most common operating system in the world and is widely used in private corporations as well as government environments. Using Windows as a victim machine provides valuable insight to what most machines could experience during a cyberattack.</p>
   
   <h4>Machine 3: SIEM</h4>
 
@@ -96,6 +98,8 @@
         <td>Log collection and analysis</td>
       </tr>
   </table>
+
+  <p>The machine I am using for a SIEM environment is Ubuntu. Ubuntu is one of the most popular LInux distros. It provides wide compatibility and a solid, reliable host for log ingestion. I will install Splunk on this machine for the SIEM.</p>
   
 <h2>Configure the Network</h2>
 
