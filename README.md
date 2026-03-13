@@ -204,6 +204,10 @@
 
 ![Splunk Console](screenshots/Splunk-Console.PNG)
 
+<p>Test Splunk Search: Results indicate it is functioning as it should</p>
+
+![Splunk Search Verification](screenshots/Splunk-Search-Verification.PNG)
+
 <h2>Send Windows Log to Splunk</h2>
 
 <h2>Perform Attacks (Red Team)</h2>
