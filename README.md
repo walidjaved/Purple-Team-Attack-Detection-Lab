@@ -178,8 +178,14 @@
 ![Ubuntu Network Settings](screenshots/Ubuntu-Connection.PNG)
 
 <h2>Install Sysmon on Windows</h2>
+<p>Sysmon is a Windows system service from Microsoft that logs detailed system activity to help detect malicious behavior on a computer. It is part of the Sysinternals Suite and is widely used by SOC analysts, threat hunters, and blue teams.</p>
+<p>It records things Windows normally does not log in detail.</p>
+<p>I installed Sysmon from Microsofts website and configured it to avoid excessive logs:</p>
 
 <h2>Install Splunk on Ubuntu</h2>
+<p>Splunk is a platform used to collect, search, analyze, and visualize machine data (logs) from systems, applications, and network devices.</p>
+<p>In cybersecurity, Splunk is commonly used as a SIEM (Security Information and Event Management) system.</p>
+<p>I installed Splunk using Ubuntu's Terminal which makes the process easy and fast:</p>
 
 <h2>Send Windows Log to Splunk</h2>
 
