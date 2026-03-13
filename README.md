@@ -197,6 +197,13 @@
 <p>In cybersecurity, Splunk is commonly used as a SIEM (Security Information and Event Management) system.</p>
 <p>I installed Splunk using Ubuntu's Terminal which makes the process easy and fast:</p>
 
+![Splunk Install](screenshots/Splunk-Install.PNG)
+
+<h2>Verifying Splunk Functionality</h2>
+<p>Once Splunk was installed successfully. I navigated to the WebUI for Splunk to ensure it was working and accessible:</p>
+
+![Splunk Console](screenshots/Splunk-Console.PNG)
+
 <h2>Send Windows Log to Splunk</h2>
 
 <h2>Perform Attacks (Red Team)</h2>
