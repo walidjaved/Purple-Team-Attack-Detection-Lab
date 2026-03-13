@@ -89,6 +89,8 @@
   </table>
 
   <p>The victim machine is a Windows 11 host. Windows is the most common operating system in the world and is widely used in private corporations as well as government environments. Using Windows as a victim machine provides valuable insight to what most machines could experience during a cyberattack.</p>
+
+  ![Windows](screenshots/Windows.PNG)
   
   <h4>Machine 3: SIEM</h4>
 
@@ -104,6 +106,8 @@
   </table>
 
   <p>The machine I am using for a SIEM environment is Ubuntu. Ubuntu is one of the most popular LInux distros. It provides wide compatibility and a solid, reliable host for log ingestion. I will install Splunk on this machine for the SIEM.</p>
+  
+  ![Ubuntu](screenshots/Ubuntu.PNG)
   
 <h2>Configure the Network</h2>
 
