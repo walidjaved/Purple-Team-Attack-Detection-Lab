@@ -240,6 +240,9 @@
 
 ![Splunk Log Ingestion](screenshots/Splunk-Log-Ingestion.PNG)
 
+<h2>Build a Detection Dashboard</h2>
+
+![Splunk Detection Dashboard](screenshots/Splunk-Log-Ingestion.PNG)
 
 <h2>Perform Attacks (Red Team)</h2>
   <h4>Attack 1 - Network Scan</h4>
@@ -271,7 +274,5 @@
   <h4>Detect Powershell Abuse</h4>
   <h4>Detect Network Connections</h4>
   <h4>Detect Suspicious Activity</h4>
-  
-<h2>Build a Detection Dashboard</h2>
 
 <h2>Investigate the Attack</h2>
