@@ -210,6 +210,12 @@
 
 <h2>Send Windows Log to Splunk</h2>
 
+<h3>Step 1</h3>
+
+<p>Installed Splunk Universal Forwarder and configured it to forward logs to 192.168.56.30:9997 (Ubuntu Splunk Server)</p>
+
+
+
 <h2>Perform Attacks (Red Team)</h2>
   <h4>Attack 1 - Network Scan</h4>
     <pre>
