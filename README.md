@@ -244,26 +244,33 @@
 
 <p>Each panel was created using splunk queries:</p>
 
-<p>Total Firewall Events:</p>
+<p>Total Firewall Events:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" | stats count as total_firewall_events</code>
+</p>
 
-<p>Dropped Connections:</p>
+<p>Dropped Connections:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" DROP | stats count as dropped_connections</code>
+</p>
 
-<p>Attacker Activity:</p>
+<p>Attacker Activity:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" "192.168.56.10" | stats count as attacker_events</code>
+</p>
 
-<p>Firewall Events Over Time:</p>
+<p>Firewall Events Over Time:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" | timechart count</code>
+</p>
 
-<p>Reconnaissance Activity Over Time:</p>
+<p>Reconnaissance Activity Over Time:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" "192.168.56.10" | timechart count</code>
+</p>
 
-<p>Blocked Probes from Kali:</p>
+<p>Blocked Probes from Kali:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" DROP "192.168.56.10" | table _time _raw | rename _time as Time _raw as Event | head 10</code>
+</p>
 
-<p>Recent Firewall Events:</p>
+<p>Recent Firewall Events:<br>
 <code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log" | table _time _raw | head 15</code>
+</p>
 
 
 
