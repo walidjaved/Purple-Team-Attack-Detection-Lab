@@ -212,9 +212,23 @@
 
 <h3>Step 1</h3>
 
-<p>Installed Splunk Universal Forwarder and configured it to forward logs to 192.168.56.30:9997 (Ubuntu Splunk Server)</p>
+<p>Installed Splunk Universal Forwarder and configured it to forward logs to 192.168.56.30:9997 (Ubuntu Splunk Server):</p>
 
 ![Splunk Forwarder Installation](screenshots/SplunkForwarder.PNG)
+
+<p>Configured receiving port in Splunk to listen on port 9997:</p>
+
+<p>Verified Splunk is listening on correct ports:</p>
+
+<h3>Step 2</h3>
+
+<p>Updated input configuration file (inputs.conf) to send windows events, sysmon, and firewall logs to Splunk:</p>
+
+<h3>Step 3</h3>
+<p>Created indexes in Splunk to ingest logs in the correct location:</p>
+
+<h3>Step 4</h3>
+<p>Verified Splunk log ingestion</p>
 
 
 <h2>Perform Attacks (Red Team)</h2>
