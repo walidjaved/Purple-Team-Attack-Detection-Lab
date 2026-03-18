@@ -214,6 +214,7 @@
 
 <p>Installed Splunk Universal Forwarder and configured it to forward logs to 192.168.56.30:9997 (Ubuntu Splunk Server):</p>
 
+![Splunk Forwarder Installation](screenshots/Splunk-Forwarder.PNG)
 
 <p>Configured receiving port in Splunk to listen on port 9997:</p>
 
