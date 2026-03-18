@@ -240,6 +240,16 @@
 
 <h2>Build a Detection Dashboard</h2>
 
+<p>I built a Splunk detection dashboard to identify reconnaissance activity from a Kali Linux attacker VM targeting a Windows system. The dashboard visualizes firewall telemetry including dropped connections, attacker activity timelines, and blocked probes associated with Nmap scanning.</p>
+
+<p>Each panel was created using splunk queries:</p>
+
+<p>Total Firewall Events:</p>
+<code>index=* source="C:\\Windows\\System32\\LogFiles\\Firewall\\pfirewall.log"
+| stats count as total_firewall_events</code>
+
+
+
 ![Splunk Detection Dashboard](screenshots/Splunk-Cybersecurity-Detection-Dashboard.PNG)
 
 <h2>Perform Attacks (Red Team)</h2>
