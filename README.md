@@ -216,9 +216,10 @@
 
 ![Splunk Forwarder Installation](screenshots/SplunkForwarder.PNG)
 
+
 <p>Configured receiving port in Splunk to listen on port 9997:</p>
 
-![Splunk Receiving Port](screenshots/Receiving-Port.PNG)
+![Splunk Receiving Port](screenshots/Splunk-Receiving-Port.PNG)
 
 <p>Verified Splunk is listening on correct ports:</p>
 
