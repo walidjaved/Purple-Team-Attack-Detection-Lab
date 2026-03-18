@@ -218,17 +218,27 @@
 
 <p>Configured receiving port in Splunk to listen on port 9997:</p>
 
+![Splunk Receiving Port](screenshots/Receiving-Port.PNG)
+
 <p>Verified Splunk is listening on correct ports:</p>
+
+![Splunk Port Verification](screenshots/Splunk-Port-Verification.PNG)
 
 <h3>Step 2</h3>
 
 <p>Updated input configuration file (inputs.conf) to send windows events, sysmon, and firewall logs to Splunk:</p>
 
+![Splunk Input Configuration](screenshots/Inputs-Conf.PNG)
+
 <h3>Step 3</h3>
 <p>Created indexes in Splunk to ingest logs in the correct location:</p>
 
+![Splunk Indexes](screenshots/Splunk-Indexes.PNG)
+
 <h3>Step 4</h3>
 <p>Verified Splunk log ingestion</p>
+
+![Splunk Log Ingestion](screenshots/Splunk-Log-Ingestion.PNG)
 
 
 <h2>Perform Attacks (Red Team)</h2>
