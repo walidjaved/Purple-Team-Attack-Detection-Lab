@@ -242,7 +242,7 @@
 
 <h2>Build a Detection Dashboard</h2>
 
-![Splunk Detection Dashboard](screenshots/Splunk-Log-Ingestion.PNG)
+![Splunk Detection Dashboard](screenshots/Splunk-Cybersecurity-Detection-Dashboard.PNG)
 
 <h2>Perform Attacks (Red Team)</h2>
   <h4>Attack 1 - Network Scan</h4>
