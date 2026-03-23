@@ -325,7 +325,7 @@
   
     
   <h4>Detect CommandLine Abuse and Obfuscation</h4>
-    <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
+    <p>This query focuses on showing if the command line was used and which commands were performed. The query can easily be tuned to detect common commands an attacker may use on a machine and in turn sending alerts to the SOC.</p>
     <p>Splunk Query:</p>
     <code>index=* Image="*cmd.exe" | table _time host User CommandLine ParentImage | sort - _time</code><br>
     <br>
