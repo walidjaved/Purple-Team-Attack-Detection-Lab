@@ -320,11 +320,12 @@
   
     
   <h4>Detect CommandLine Abuse</h4>
-
     <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
     <p>Splunk Query:</p>
+    
     <code>index=* Image="*cmd.exe" | table _time host User CommandLine ParentImage | sort - _time</code><br>
     <br>
+    
     <p>Splunk:</p>
   
   <h4>Detect Network Connections</h4>
