@@ -299,7 +299,7 @@
 
   <p><b>Attack 3: Run Suspicious Activities</b> - Once connection was established, I opened and ran a command through powershell to simulate suspicious activities much like an attacker would do. Of course, an attacker would likely run this in the background without the user knowing!<br>
     
-    <code>powershell -ExecutionPolicy Bypass -Command "Get-Process"</code>
+    powershell -ExecutionPolicy Bypass -Command "Get-Process"
     
   ![Kali Suspicious Activities Attack](screenshots/Kali-Suspicious-Activities-Attack.PNG)
   
