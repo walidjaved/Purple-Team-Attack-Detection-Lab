@@ -354,12 +354,12 @@
   ![Splunk Suspicious Activity](screenshots/Splunk-SuspiciousActivity-Query.PNG)
 
 <h2>Lessons Learned</h2>
-<p>This lab demonstrates how real-world attacks leave detectable traces across multiple log sources and how those traces can be correlated to identify compromise.</p>
+<p>This lab demonstrated how real-world attacks leave detectable traces across multiple log sources and how those traces can be correlated to identify compromise.</p>
 <h3>Key Takeaways</h3>
 <ul>
   <li>Developed a full understanding of how logs flow from endpoint systems (Windows) to a SIEM platform (Splunk) using a forwarder-based architecture.</li>
   <li>Learned how to distinguish between event time (_time) and index time (_indextime) and how this impacts real-time visibility in Splunk.</li>
-  <li>Gained hands-on experience correlating multiple log sources (Sysmon + Windows Event Logs) to identify attacker behavior.</li>
+  <li>Gained hands-on experience correlating multiple log sources (Sysmon + Windows Event Logs + Firewall Logs) to identify attacker behavior.</li>
   <li>Understood how attackers leverage native tools like PowerShell and command-line utilities to evade detection (Living-off-the-Land techniques).</li>
   <li>Learned how detection thresholds (e.g., port scan thresholds) impact visibility and can lead to false negatives if not tuned properly.</li>
 </ul>
