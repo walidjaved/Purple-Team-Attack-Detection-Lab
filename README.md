@@ -347,6 +347,6 @@
     <br>
     <p>Splunk:</p>
     
-  ![Splunk Suspicious Activity](screenshots/Splunk-SuspicousActivity-Query.PNG)
+  ![Splunk Suspicious Activity](screenshots/Splunk-SuspiciousActivity-Query.PNG)
 
 <h2>Investigate the Attack</h2>
