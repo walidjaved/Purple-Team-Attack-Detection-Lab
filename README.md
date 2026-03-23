@@ -280,25 +280,18 @@
 <h2>Perform Attacks (Red Team)</h2>
 <p>I simulated multiple attacks from my Kali machine to the victim Windows 11 machine. The attacks included port scanning, brute-force authentication, and command execution once the machine was compromised.</p>
   <h4>Attack 1 - Network Scan</h4>
-    
-      <code>
-        nmap -sS -p- 192.168.56.20
-      </code>
-    
+    nmap -sS -p- 192.168.56.20
+    ![Kali Nmap Attack](screenshots/Kali-Nmap-Attack.PNG) 
     
   <h4>Attack 2 - Brute Force Login</h4>
-    
-      <code>
-        hydra -l administrator -P rockyou.txt smb://192.168.56.20
-      </code>
+    hydra -l administrator -P rockyou.txt smb://192.168.56.20
+    ![Kali Brute Force Attack](screenshots/Kali-Brute-Force-Attack.PNG) 
     
     
   <h4>Attack 3 - Run Suspicious Activities</h4>
-      
-      <code>
-        powershell -ExecutionPolicy Bypass -Command "Get-Process"
-      </code>
-    
+    powershell -ExecutionPolicy Bypass -Command "Get-Process"
+    ![Kali Suspicious Activites](screenshots/Kali-Suspicious-Activities.PNG) 
+
   
 <h2>Detect Attacks (Blue Team)</h2>
 <p>I used multiple Splunk queries to detect attacks and suspicious behaviors. Each query was also used to create a custom detection dashboard for quick detection, containment, and remediation. These detections were created from Sysmon and Windows logs that I forwarded from Windows machine to Splunk server.</p>
