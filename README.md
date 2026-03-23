@@ -317,6 +317,7 @@
     <br>
     <p>Splunk:</p>
     
+  ![Splunk Brute Force](screenshots/Splunk-Brute-Force-Panel.PNG)
   
     
   <h4>Detect CommandLine Abuse</h4>
@@ -325,6 +326,8 @@
     <code>index=* Image="*cmd.exe" | table _time host User CommandLine ParentImage | sort - _time</code><br>
     <br>
     <p>Splunk:</p>
+    
+  ![Splunk CommandLine Abuse](screenshots/Splunk-SuspiciousCMD-Query.PNG)
   
   <h4>Detect Network Connections</h4>
     <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
@@ -332,6 +335,8 @@
     <code>index=sysmmon EventID=3 | stats count by DestinationIP | sort - count | head 10</code> <br>
     <br>
     <p>Splunk:</p>
+    
+  ![Splunk Network Connections](screenshots/Splunk-NetworkConnections-Panel.PNG)
 
     
   <h4>Detect Suspicious Activity</h4>
@@ -341,5 +346,7 @@
     <code>index=sysmmon EventID=1 | search CommandLine="*ipconfig*" | table _time host CommandLine | sort _indextime</code> <br>
     <br>
     <p>Splunk:</p>
+    
+  ![Splunk Suspicious Activity](screenshots/Splunk-SuspicousActivity-Query.PNG)
 
 <h2>Investigate the Attack</h2>
