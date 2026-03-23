@@ -278,23 +278,10 @@
 ![Splunk Detection Dashboard](screenshots/Splunk-Cybersecurity-Detection-Dashboard.PNG)
 
 <h2>Perform Attacks (Red Team)</h2>
-<p>I simulated multiple attacks from my Kali machine to the victim Windows 11 machine. The attacks included port scanning, brute-force authentication, and command execution once the machine was compromised.</p>
-  <h4>Attack 1 - Network Scan</h4>
-
-    ![Kali Nmap Attack](screenshots/Kali-Nmap-Attack.PNG) 
-    
-  <h4>Attack 2 - Brute Force Login</h4>
-    
-    ![Kali Brute Force Attack](screenshots/Kali-Brute-Force-Attack.PNG) 
-    
-  <h4>Attack 3 - Run Suspicious Activities</h4>
-    
-    ![Kali Suspicious Activites](screenshots/Kali-Suspicious-Activities.PNG) 
-
-<h2>Perform Attacks (Red Team)</h2>
   <p>I simulated multiple attacks from my Kali machine to the victim Windows 11 machine. The attacks included port scanning, brute-force authentication, and command execution once the machine was compromised.</p>
   
   <p>Attack 1:Port Scanning<br>
+    <p>Port scanning is a an easy way to scan a machine to see which ports are open and can be exploited.</p>
     <code>nmap -sS -p- 192.168.56.20</code>
     
   ![Kali Nmap Attack](screenshots/Kali-Nmap-Attack.PNG)
@@ -302,6 +289,7 @@
   </p>
 
   <p>Attack 2:Brute Force Authentication + Gaining RDP Access<br>
+    <p>Once I saw port 3389 was listening, I used Hydra (a network login cracker) to perform brute force authentication via dictionary attack from my precompiled password list. A password matched against my list and then I utilized xfree to RDP in to the machine with the matching login information.</p>
     <code>hydra -l Administrator -P rockyou.txt rdp://192.168.56.20 -t 4</code>
     
   ![Kali Brute Force Attack](screenshots/Kali-Brute-Force-Attack.PNG)
