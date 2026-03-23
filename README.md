@@ -281,6 +281,7 @@
   <p>I simulated multiple attacks from my Kali machine to the victim Windows 11 machine. The attacks included port scanning, brute-force authentication, and command execution once the machine was compromised.</p>
   
   <p><b>Attack 1: Port Scanning</b><br>
+    
     <p>Port scanning is a an easy way to scan a machine to see which ports are open and can be exploited.</p>
     <code>nmap -sS -p- 192.168.56.20</code>
     
@@ -289,6 +290,7 @@
   </p>
 
   <p><b>Attack 2: Brute Force Authentication + Gaining RDP Access</b><br>
+    
     <p>Once I saw port 3389 was listening, I used Hydra (a network login cracker) to perform brute force authentication via dictionary attack from my precompiled password list. A password matched against my list and then I utilized xfree to RDP in to the machine with the matching login information.</p>
     <code>hydra -l Administrator -P rockyou.txt rdp://192.168.56.20 -t 4</code>
     
@@ -297,6 +299,7 @@
   </p>
 
   <p><b>Attack 3: Run Suspicious Activities</b><br>
+    
     <code>powershell -ExecutionPolicy Bypass -Command "Get-Process"</code>
     
   ![Kali Suspicious Activities Attack](screenshots/Kali-Suspicious-Activities-Attack.PNG)
