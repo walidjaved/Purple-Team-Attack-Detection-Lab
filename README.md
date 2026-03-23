@@ -1,7 +1,7 @@
 # Purple Team Attack & Detection Lab
 
 <h2> Description</h2>
-<p><b>This project simulates a cyberattack using Kali Linux and detects malicious activity using Splunk SIEM and Sysmon logs.</b></p>
+<p><b>This project simulates real-world cyber attacks and demonstrates how they can be detected using Splunk SIEM. The lab integrates both offensive (Kali Linux) and defensive (Windows + Sysmon + Splunk) components to replicate a realistic Security Operations Center (SOC) environment.</b></p>
 
 <p>In this project, I simulated a full attack chain:
 <ol>
@@ -9,6 +9,7 @@
   <li>Brute force attack via RDP (Hydra)</li>
   <li>Successful login to the Windows system</li>
   <li>Post-exploitation using PowerShell and command execution</li>
+  <li>Detection of all activity using Splunk Dashboards</li>
 </ol>
 </p>
 
@@ -353,6 +354,7 @@
   ![Splunk Suspicious Activity](screenshots/Splunk-SuspiciousActivity-Query.PNG)
 
 <h2>Lessons Learned</h2>
+<p>This lab demonstrates how real-world attacks leave detectable traces across multiple log sources and how those traces can be correlated to identify compromise.</p>
 <h3>Key Takeaways</h3>
 <ul>
   <li>Developed a full understanding of how logs flow from endpoint systems (Windows) to a SIEM platform (Splunk) using a forwarder-based architecture.</li>
