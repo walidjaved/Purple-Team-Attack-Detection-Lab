@@ -282,7 +282,7 @@
   
   <p><b>Attack 1: Port Scanning</b> - Port scanning is a an easy way to scan a machine to see which ports are open and can be exploited.<br>
     
-      <code>nmap -sS -p- 192.168.56.20</code>
+      nmap -sS -p- 192.168.56.20
     
   ![Kali Nmap Attack](screenshots/Kali-Nmap-Attack.PNG)
   
@@ -291,13 +291,13 @@
   <p><b>Attack 2: Brute Force Authentication + Gaining RDP Access</b> - Once I saw port 3389 was listening, I used Hydra (a network login cracker) to perform brute force authentication via dictionary attack from my precompiled password list. A password matched against my list and then I utilized xfree to RDP in to the machine with the matching login information.<br>
   
     
-    <code>hydra -l Administrator -P rockyou.txt rdp://192.168.56.20 -t 4</code>
+    hydra -l Administrator -P rockyou.txt rdp://192.168.56.20 -t 4
     
   ![Kali Brute Force Attack](screenshots/Kali-Brute-Force-Attack.PNG)
   
   </p>
 
-  <p><b>Attack 3: Run Suspicious Activities</b><br>
+  <p><b>Attack 3: Run Suspicious Activities</b> - Once connection was established, I opened and ran a command through powershell to simulate suspicious activities much like an attacker would do. Of course, an attacker would likely run this in the background without the user knowing!<br>
     
     <code>powershell -ExecutionPolicy Bypass -Command "Get-Process"</code>
     
