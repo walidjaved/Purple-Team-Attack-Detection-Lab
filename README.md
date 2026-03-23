@@ -310,7 +310,15 @@
   
 <h2>Detect Attacks (Blue Team)</h2>
 <p>I used multiple Splunk queries to detect attacks and suspicious behaviors. Each query was also used to create a custom detection dashboard for quick detection, containment, and remediation. These detections were created from Sysmon and Windows logs that I forwarded from Windows machine to Splunk server.</p>
-  <h4>Detect Process Execution</h4>
+  <h4>Detect Attacking IPs</h4>
+    <p>I utilized the ingested logs from Windows Events (Event Code = 4625) to detect which IP addresses had failed logon attempts to my Windows machine. The dashboard shows Kali's IP trying a brute force attack.</p>
+    <p>Splunk Query:</p>
+    <code>index=wineventlog EventCode=4625 | stats count by Source_Network_Address | sort - count | head 10</code> <br>
+    <br>
+    <p>Splunk Dashboard:</p>
+    
+  
+    
   <h4>Detect Powershell Abuse</h4>
   <h4>Detect Network Connections</h4>
   <h4>Detect Suspicious Activity</h4>
