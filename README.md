@@ -314,7 +314,7 @@
 <h2>Detect Attacks (Blue Team)</h2>
 <p>I used multiple Splunk queries to detect attacks and suspicious behaviors. Each query was also used to create a custom detection dashboard for quick detection, containment, and remediation. These detections were created from Sysmon and Windows logs that I forwarded from Windows machine to Splunk server.</p>
   <h4>Detect Attacking IPs</h4>
-    <p>I utilized the ingested logs from Windows Events (Event Code = 4625) to detect which IP addresses had failed logon attempts to my Windows machine. The dashboard shows Kali's IP trying a brute force attack.</p>
+    <p>I utilized the ingested logs from Windows Events (Event Code = 4625) to detect which IP addresses had failed logon attempts to my Windows machine. The dashboard shows brute force attempts via login failures.</p>
     <p>Splunk Query:</p>
     <code>index=wineventlog EventCode=4625 | stats count by Source_Network_Address | sort - count | head 10</code> <br>
     <br>
@@ -324,7 +324,7 @@
   ![Splunk Brute Force](screenshots/Splunk-Brute-Force-Panel.PNG)
   
     
-  <h4>Detect CommandLine Abuse</h4>
+  <h4>Detect CommandLine Abuse and Obfuscation</h4>
     <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
     <p>Splunk Query:</p>
     <code>index=* Image="*cmd.exe" | table _time host User CommandLine ParentImage | sort - _time</code><br>
@@ -334,7 +334,7 @@
   ![Splunk CommandLine Abuse](screenshots/Splunk-SuspiciousCMD-Query.PNG)
   
   <h4>Detect Network Connections</h4>
-    <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
+    <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable but it highlights any abnormal network behavior.</p>
     <p>Splunk Query:</p>
     <code>index=sysmmon EventID=3 | stats count by DestinationIP | sort - count | head 10</code> <br>
     <br>
