@@ -350,4 +350,4 @@
     
   ![Splunk Suspicious Activity](screenshots/Splunk-SuspiciousActivity-Query.PNG)
 
-<h2>Investigate the Attack</h2>
+<h2>Lessons Learned</h2>
