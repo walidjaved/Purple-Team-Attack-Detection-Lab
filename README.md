@@ -321,6 +321,13 @@
     
   <h4>Detect Powershell Abuse</h4>
   <h4>Detect Network Connections</h4>
+    <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable.</p>
+    <p>Splunk Query:</p>
+    <code>index=sysmmon EventID=3 | stats count by DestinationIP | sort - count | head 10</code> <br>
+    <br>
+    <p>Splunk Dashboard:</p>
+
+    
   <h4>Detect Suspicious Activity</h4>
 
 <h2>Investigate the Attack</h2>
