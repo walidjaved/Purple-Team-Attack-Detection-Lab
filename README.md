@@ -3,14 +3,16 @@
 <h2> Description</h2>
 <p><b>This project simulates a cyberattack using Kali Linux and detects malicious activity using Splunk SIEM and Sysmon logs.</b></p>
 
-<p>In this project:
+<p>In this project, I simulated a full attack chain:
 <ol>
-  <li>Launch Attack</li>
-  <li>Collect Logs</li>
-  <li>Detect suspicious activity</li>
-  <li>Investigate the attack</li>
+  <li>Reconnaissance using Nmap</li>
+  <li>Brute force attack via RDP (Hydra)</li>
+  <li>Successful login to the Windows system</li>
+  <li>Post-exploitation using PowerShell and command execution</li>
 </ol>
 </p>
+
+<p>All activity was monitored and detected using Splunk.</p>
 
 <h2>Tools Used</h2>
 <table>
@@ -351,3 +353,56 @@
   ![Splunk Suspicious Activity](screenshots/Splunk-SuspiciousActivity-Query.PNG)
 
 <h2>Lessons Learned</h2>
+<h3>Key Takeaways</h3>
+<ul>
+  <li>Developed a full understanding of how logs flow from endpoint systems (Windows) to a SIEM platform (Splunk) using a forwarder-based architecture.</li>
+  <li>Learned how to distinguish between event time (_time) and index time (_indextime) and how this impacts real-time visibility in Splunk.</li>
+  <li>Gained hands-on experience correlating multiple log sources (Sysmon + Windows Event Logs) to identify attacker behavior.</li>
+  <li>Understood how attackers leverage native tools like PowerShell and command-line utilities to evade detection (Living-off-the-Land techniques).</li>
+  <li>Learned how detection thresholds (e.g., port scan thresholds) impact visibility and can lead to false negatives if not tuned properly.</li>
+</ul>
+
+<h3>Skills Demonstrated</h3>
+<ul>
+  <li>SIEM configuration and management using Splunk.</li>
+  <li>Log ingestion, parsing, and normalization</li>
+  <li>Endpoint monitoring using Sysmon</li>
+  <li>Detection engineering using SPL (Splunk Processing Language)</li>
+  <li>Threat hunting and behavioral analysis</li>
+  <li>Network traffic analysis and port scan detection</li>
+  <li>Authentication monitoring and brute force detection</li>
+  <li>Troubleshooting data ingestion, timestamp, and field extraction issues</li>
+</ul>
+
+<h3>Detection Engineering Insights</h3>
+<ul>
+  <li>Effective detections are behavior-based, not just signature-based</li>
+  <li>Multiple log sources must be correlated to accurately detect attacks</li>
+  <li>Field validation (e.g., identifying correct fields like IpAddress vs src_ip) is critical for accurate queries</li>
+  <li>Detection logic must account for environmental differences (e.g., Sysmon vs Windows logs vs firewall logs)</li>
+  <li>Visualization (dashboards) plays a key role in rapid triage and investigation</li>
+</ul>
+
+<h3>Challenges and Solutions</h3>
+<ul>
+  <li><b>Challenge:</b> Logs not appearing in real-time <b>Solution:</b> Identified differences between _time and _indextime and adjusted search time ranges</li>
+  <li><b>Challenge:</b> Missing or incorrect fields in queries <b>Solution:</b> Used fieldsummary and raw event inspection to identify correct field names</li>
+  <li><b>Challenge:</b> Port scan detection not triggering <b>Solution:</b> Adjusted thresholds and generated sufficient network activity to validate detection</li>
+  <li><b>Challenge:</b> RDP brute force simulation issues <b>Solution:</b> Resolved account restrictions, firewall settings, and connection limitations</li>
+</ul>
+
+<h3>SOC Analyst Mindset Gained</h3>
+<ul>
+  <li>Learned to approach problems from both attacker and defender perspectives (Purple Team)</li>
+  <li>Developed the ability to investigate events chronologically using timelines</li>
+  <li>Focused on identifying patterns of behavior rather than isolated events</li>
+  <li>Improved troubleshooting skills across networking, endpoint, and SIEM layers</li>
+</ul>
+
+<h3>Future Improvements</h3>
+<ul>
+  <li>Implement real-time alerting and automated response workflows</li>
+  <li>Integrate additional telemetry sources (e.g., Zeek or Suricata) for network-level visibility</li>
+  <li>Enhance detections using MITRE ATT&CK mapping</li>
+  <li>Build more advanced correlation searches and risk-based alerting</li>
+</ul>
