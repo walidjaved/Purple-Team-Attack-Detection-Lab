@@ -315,7 +315,9 @@
     <p>Splunk Query:</p>
     <code>index=wineventlog EventCode=4625 | stats count by Source_Network_Address | sort - count | head 10</code> <br>
     <br>
-    <p>Splunk:</p>
+    <p>Splunk:</p><br>
+    <br>
+    <p>I have included different types of panels to showcase viewing the same information multiple ways.</p>
     
   ![Splunk Brute Force](screenshots/Splunk-Brute-Force-Panel.PNG)
   
