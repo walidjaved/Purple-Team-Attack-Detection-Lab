@@ -43,8 +43,8 @@
     <td>Reconnaissance</td>
   </tr>
     <tr>
-    <td>Metasploit</td>
-    <td>Exploitation</td>
+    <td>Hydra</td>
+    <td>Brute Force/Dictionary Attack</td>
   </tr>
 </table>
 
