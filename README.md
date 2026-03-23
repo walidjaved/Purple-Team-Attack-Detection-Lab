@@ -336,7 +336,7 @@
   <h4>Detect Network Connections</h4>
     <p>This query focuses on network connections made by the machine to detect potentially harmful IPs. Because this is a lab environment, the IPs listed here are all reputable but it highlights any abnormal network behavior.</p>
     <p>Splunk Query:</p>
-    <code>index=sysmmon EventID=3 | stats count by DestinationIP | sort - count | head 10</code> <br>
+    <code>index=sysmon EventID=3 | stats count by DestinationIP | sort - count | head 10</code> <br>
     <br>
     <p>Splunk:</p>
     
@@ -347,7 +347,7 @@
     <p>This query focuses on commands executed via command line to detect attacker behavior. For the lab environment, a simple ipconfig command was used once a brute force authentication succeeded and the attacker 
       gained RDP access to the machine.</p>
     <p>Splunk Query:</p>
-    <code>index=sysmmon EventID=1 | search CommandLine="*ipconfig*" | table _time host CommandLine | sort _indextime</code> <br>
+    <code>index=sysmon EventID=1 | search CommandLine="*ipconfig*" | table _time host CommandLine | sort _indextime</code> <br>
     <br>
     <p>Splunk:</p>
     
